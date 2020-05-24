@@ -12,6 +12,6 @@ player = int(input(''))
 print('PROCESSANDO...')
 sleep(3)
 if player == pc:
-    print('PARABÉNS! Você me venceu!')
+    print('\033[1;32mPARABÉNS! Você me venceu!')
 else:
-    print(f'GANHEI! Eu pensei no número {pc} e não no {player}!')
+    print(f'\033[1;31mGANHEI! Eu pensei no número {pc} e não no {player}!')

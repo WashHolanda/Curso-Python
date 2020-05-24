@@ -8,5 +8,5 @@ if dist<=200:
     preço = dist*0.5
 else:
     preço = dist*0.45
-print(f'Você está prestes a começar uma viagem de {dist} Km.')
+print(f'\033[0;35mVocê está prestes a começar uma viagem de {dist} Km.')
 print(f'E o preço da sua passagem será de R${preço:.2f}')
