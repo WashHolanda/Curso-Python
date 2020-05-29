@@ -6,4 +6,4 @@ separadamente.
 nome = input('Digite o seu nome completo: ')
 nome = nome.split()
 print(f'Primeiro Nome: {nome[0]}')
-print(f'Último Nome: {nome[(nome.__len__()-1)]}')
+print(f'Último Nome: {nome[(len(nome)-1)]}')
