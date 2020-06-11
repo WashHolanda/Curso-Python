@@ -9,3 +9,4 @@ for p in palavras:
         if letra in 'AEIOUaeiou':
             print(f'{letra} ',end=' ')
     print('')
+    
