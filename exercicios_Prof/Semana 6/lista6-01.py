@@ -1,12 +1,17 @@
 '''
-4) Escreva uma função chamada área_quad que recebe os
-lados de um retângulo e retorne sua área.
+1) Escreva uma função chamada fatorial para calcular o fatorial de um número inteiro.
 '''
-def área_quad(l,a):
-    area = l*a
-    return area
+def fatorial(num):
+    """
+    -> Calcula o fatorial de um número
+    :param num: O número que terá o fatorial calculado.
+    :return: O valor do fatorial de um número.
+    """
+    fat = 1
+    for n in range(1,num+1):
+        fat *= n
+    return fat
 
 
-lado = int(input('Digite o lado do retângulo: '))
-altura = int(input('Digite a altura do retângulo: '))
-print(f'A área do retângulo de lado {lado}cm e altura {altura}cm é {área_quad(lado,altura)}cm²')
+num = int(input('Digite um valor: '))
+print(f'O fatorial de {num} é {fatorial(num)}')
