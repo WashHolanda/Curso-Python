@@ -3,9 +3,13 @@
 '''
 def fatorial(num):
     """
-    -> Calcula o fatorial de um número
-    :param num: O número que terá o fatorial calculado.
-    :return: O valor do fatorial de um número.
+        -> Calcula o fatorial de um número
+    
+    Args:
+        num (int): O número que terá o fatorial calculado.
+    
+    Returns:
+        int: O valor do fatorial do número.
     """
     fat = 1
     for n in range(1,num+1):
